@@ -317,7 +317,7 @@
     margin-right: 0;
   }
   @media ($mobile) {
-    width: 100%;
+    width: calc(100% + 15px);
     justify-content: center;
   }
 

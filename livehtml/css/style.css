@@ -858,7 +858,7 @@ body.scroll-lock {
   }
 
   .header__popular {
-    width: 100%;
+    width: calc(100% + 15px);
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
