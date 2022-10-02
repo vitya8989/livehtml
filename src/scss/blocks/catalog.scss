@@ -44,6 +44,15 @@
   @media ($tablet) {
     overflow-x: auto;
     margin: 0;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    &::-webkit-scrollbar {
+      width: 0 !important;
+      height: 0;
+      display: none !important;
+      background: transparent;
+    }
+    cursor: grab;
   }
   li {
     @media ($tablet) {
